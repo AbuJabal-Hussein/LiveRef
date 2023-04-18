@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LiveRef
+Bundle-SymbolicName: LiveRef;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime;bundle-version="3.26.100",
+ org.eclipse.jdt.core;bundle-version="3.33.0"
+Import-Package: org.eclipse.core.resources,
+ org.eclipse.jface.text
+Automatic-Module-Name: LiveRef
+Bundle-RequiredExecutionEnvironment: JavaSE-17

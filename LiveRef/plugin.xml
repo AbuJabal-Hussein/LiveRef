@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+<extension
+      id="markerC1"
+      name="markerC1"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC2"
+      name="markerC2"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+
+<extension
+      id="LiveRef.markerAnnotationSpecs"
+      point="org.eclipse.ui.editors.markerAnnotationSpecification">
+<specification
+      annotationType="LiveRef.annotationType1"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c1.png"
+      label="color 1"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true"/>
+<specification
+      annotationType="LiveRef.annotationType2"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c2.png"
+      label="color 2"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType4"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c4.png"
+      label="color 4"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType3"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c3.png"
+      label="color 3"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType5"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c5.png"
+      label="color 5"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType6"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c6.png"
+      label="color 6"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType8"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c8.png"
+      label="color 8"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType9"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c9.png"
+      label="color 9"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType7"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c7.png"
+      label="color 7"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+<specification
+      annotationType="LiveRef.annotationType10"
+      colorPreferenceKey="highlight.color"
+      colorPreferenceValue="253,255,157"
+      icon="icons/c10.png"
+      label="color 10"
+      overviewRulerPreferenceKey="highlight.rulers.overview"
+      overviewRulerPreferenceValue="true"
+      presentationLayer="4"
+      textPreferenceKey="highlight.text"
+      textPreferenceValue="false"
+      verticalRulerPreferenceKey="highlight.rulers.vertical"
+      verticalRulerPreferenceValue="true">
+</specification>
+</extension>
+<extension
+      id="markerC6"
+      name="markerC6"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+
+<extension
+      id="LiveRef.annotationTypes"
+      name="LiveRef.annotationTypes"
+      point="org.eclipse.ui.editors.annotationTypes">
+<type name="LiveRef.annotationType1"
+markerType="LiveRef.markerC1"/>
+<type
+      markerType="LiveRef.markerC2"
+      name="LiveRef.annotationType2">
+</type>
+<type
+      markerType="LiveRef.markerC3"
+      name="LiveRef.annotationType3">
+</type>
+<type
+      markerType="LiveRef.markerC4"
+      name="LiveRef.annotationType4">
+</type>
+<type
+      markerType="LiveRef.markerC5"
+      name="LiveRef.annotationType5">
+</type>
+<type
+      markerType="LiveRef.markerC6"
+      name="LiveRef.annotationType6">
+</type>
+<type
+      markerType="LiveRef.markerC7"
+      name="LiveRef.annotationType7">
+</type>
+<type
+      markerType="LiveRef.markerC8"
+      name="LiveRef.annotationType8">
+</type>
+<type
+      markerType="LiveRef.markerC9"
+      name="LiveRef.annotationType9">
+</type>
+<type
+      markerType="LiveRef.markerC10"
+      name="LiveRef.annotationType10">
+</type>
+</extension>
+<extension
+      id="markerC3"
+      name="markerC3"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC4"
+      name="markerC4"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC5"
+      name="markerC5"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC7"
+      name="markerC7"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC8"
+      name="markerC8"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC9"
+      name="markerC9"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="markerC10"
+      name="markerC10"
+      point="org.eclipse.core.resources.markers">
+   <super
+         type="org.eclipse.core.resources.textmarker">
+   </super>
+   <persistent
+         value="false">
+   </persistent>
+</extension>
+<extension
+      id="LiveRef.startupevent"
+      point="org.eclipse.ui.startup">
+   <startup
+         class="liveRef.handlers.StartupHandler">
+   </startup>
+</extension>>
+
+</plugin>
