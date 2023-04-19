@@ -21,5 +21,5 @@ LiveRef is an Eclipse plug-in that provides live refactoring of Java code, by su
 4. Select the lines of the candidate (manually), and apply "Extract Method" refactoring function using the built-in function in Eclipse  
 5. Enjoy the liveness of the suggestions of our plugin :)
 
-https://user-images.githubusercontent.com/63556300/225927081-b11549c6-65a1-4a4a-9208-f7b48a0fc1a3.mp4
+https://github.com/AbuJabal-Hussein/LiveRef/blob/main/Demo.mp4
 
