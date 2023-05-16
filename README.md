@@ -1,10 +1,10 @@
 # LiveRef
-This is the final project of the course 236651 at the Technion.
-
 
 LiveRef is an Eclipse plug-in that provides live refactoring of Java code, by suggesting candidates for “extract method refactoring” in real time while programming.
 
-Paper: A Live Environment to Improve the Refactoring Experience - 3532512.3535222.pdf
+Paper: A Live Environment to Improve the Refactoring Experience - 3532512.3535222.pdf  
+
+This is the final project of the course 236651 at the Technion.
 
 ## Prerequisite
 
